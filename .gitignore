@@ -1,0 +1,34 @@
+# Android/IntelliJ
+.idea/
+*.iml
+*.log
+.DS_Store
+
+# Gradle
+.gradle/
+/local.properties
+/build/
+**/build/
+.gradle/
+.gradletasknamecache
+
+# APKs
+*.apk
+*.ap_ 
+
+# Android Studio
+.idea/
+*.ipr
+*.iws
+*.iml
+.DS_Store
+.gradle/
+/build/
+
+# Proguard
+proguard/
+proguard/*
+
+# Misc
+/caches/
+*.lock

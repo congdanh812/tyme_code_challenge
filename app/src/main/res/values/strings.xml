@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DCDanh - Code challenge</string>
+    <string name="title_github_users">Github Users</string>
+    <string name="title_user_detail">User Details</string>
+    <string name="title_blog">Blog</string>
+    <string name="user_stats">Following: %1$d | Followers: %2$d</string>
+</resources>
