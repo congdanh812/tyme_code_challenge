@@ -1,4 +1,4 @@
-# Android/IntelliJ
+# Ignore Android Studio / IntelliJ configuration files
 .idea/
 *.iml
 *.log
@@ -6,29 +6,33 @@
 
 # Gradle
 .gradle/
-/local.properties
+local.properties
+/.gradle/
+/.gradle/
 /build/
-**/build/
-.gradle/
-.gradletasknamecache
 
 # APKs
 *.apk
-*.ap_ 
+*.ap_
 
-# Android Studio
+# Android Studio specific files
 .idea/
 *.ipr
 *.iws
 *.iml
 .DS_Store
-.gradle/
-/build/
 
-# Proguard
+# Proguard files
 proguard/
 proguard/*
 
 # Misc
 /caches/
 *.lock
+
+# Allow specific subdirectories for unit tests and Room/Dagger
+!build/generated/  # Ensure generated files are not ignored
+!build/classes/  # Include compiled classes for testing
+!build/tmp/
+!src/test/        # Include test code and resources
+!src/androidTest/ # Include instrumentation test code and resources
